@@ -1,0 +1,52 @@
+@charset 'utf-8';
+.content{padding-top:91px;}
+.content_a{padding-top:56px;background: url(../images/rnw-bg.jpg) no-repeat left -60px ;background-size:100% 100%;
+	/*behavior:url(backgroundsize.min.htc); 
+	-ms-behavior:url(backgroundsize.min.htc);*/
+}
+.content_img{text-align: center;}
+.content h1{margin-top:76px;text-align: center;font-size: 30px;font-family: "宋体","微软雅黑";font-weight: bold;padding-bottom: 55px;}
+.content_a p{margin-top:36px;text-align: center;font-size: 18px;line-height: 50px;}
+.content_a_btn{margin-top: 420px;}
+.content_a_btn img{float: left;margin-top:40px;margin-left: 30px;}
+.content_a_btn p{margin:0px;height: 100px;line-height:100px;width:290px; float: left;color:#0d0d0d;font-size: 24px;text-align: right}
+.content_a_btn{height:100px;width: 400px;background: url(../images/rnwmm-bg.jpg) no-repeat left top;}
+/*content_b*/
+.content_b{margin-top: 60px;background: url(../images/standard-bg.jpg) no-repeat left top;padding-bottom: 70px;}
+.content_b_main{padding-top: 48px;}
+.content_b_main ul li h2{color:#c3a07d;font-size: 24px;text-align: center;margin-top: 45px;}
+.content_b_main ul li p{text-align: center;color:#c3a07d;font-size:16px;font-family: "宋体";margin-top: 5px; }
+.content_b_main ul li{width: 240px;height:163px;float: left;position: relative;overflow: hidden;}
+.content_b_main ul  li img{width:239px;margin: 1px;}
+.content_b_main ul  li h3{position: absolute;bottom: -50px;left: 0;background:#000;width: 100%;height:50px;line-height: 50px;text-align: center;font-size: 18px;color:#c3a07d;transition: all .5s ease;font-family: "宋体";opacity: 0.7;filter: alpha(opacity=70)}
+.content_b_main ul li:hover img{margin-top: -163px;}
+.content_b_main ul li:hover h3{bottom:0;}
+/*content_c*/
+.content_c{background: url(../images/about-bg.jpg) no-repeat left top;padding: 60px 0 200px 0;position: relative;margin-bottom: 10px;}
+.content_c_main{margin-top: 20px;height:410px;}
+.content_c_main ul{height:410px;}
+.content_c_main ul li{float: left;margin:0 30px;background: #f0ebe7;display: inline-block;height:375px;width: 240px;transition: all 0.3s ease;position: relative;}
+.content_c_main ul li a{display: inline-block;width: 100%;}
+.content_c_main ul li h2{text-align: center;color:#c78645 ;font-size:24px ;font-family: "宋体";margin-top: 20px;}
+.content_c_main ul li p{text-align: center;width: 182px;margin:50px auto;color:#c78645;font-family: "宋体";font-size: 14px;line-height: 20px;}
+.content_c_main ul li:hover{transform: scale(1.2);}
+.content_c_main ul li:hover p{color:#000;}
+.content_c_main ul li:hover h2{color:#000;}
+.more{bottom:-20px;left:41%;position: absolute;width: 400px;height:100px;background: url(../images/rnwmm-bg.jpg) no-repeat;}
+.more a{color:#000;}
+.more p{color:#000;width: 273px;height:100px;line-height: 100px;text-align: right;font-size: 22px;float: left;}
+.more img{float: right;margin:41px 54px 0 20px;}
+/*footer*/
+.footer{margin-top: -20px;}
+
+
+/*border*/
+.border_top,.border_right,.border_bottom,.border_left{position: absolute;transition: all 0.8s ease;z-index: 20;}
+.border_top{top:-2px;left:0;width: 0%;border-top:4px solid #c3a07d; }
+.border_left{top:0;left:0;height: 0%;border-left:4px solid #c3a07d;}
+.border_right{bottom:0;right:0;height: 0%;border-right:4px solid #c3a07d;}
+.border_bottom{bottom:2px;right:0;width: 0%;border-bottom:4px solid #c3a07d;}
+.content_c_main ul li:hover .border_top{top:-2px;width: 100%;}
+.content_c_main ul li:hover .border_right{height: 100%;}
+.content_c_main ul li:hover .border_left{height: 100%;}
+.content_c_main ul li:hover .border_bottom{bottom:2px;width: 100%;bottom:0\9;}

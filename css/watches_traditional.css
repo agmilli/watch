@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*content*/
+.content_left .mvmenu .active{color:#c3a07d;}
+.content_left .mvmenu .active1{left:-20px;}
+.content{background: url(../images/excel-bg.jpg) no-repeat left top;margin-top: 91px;height:923px;background-size: 100% 923px;font-family: "宋体","微软雅黑"}
+.content_left{width: 21%;height:702px;padding-top:212px;min-width: 252px;text-align: center}
+.content_left>h1{font-size: 36px;;line-height: 43px;font-weight: bold;}
+.content_left>p{font-size: 18px;}
+.content_left span{display: block;height:1px;width: 30px;margin:10px auto;background: #c3a07d;}
+.content_left .mvmenu{margin-top: 100px;}
+.mvmenu_select{margin: 40px 0;cursor: pointer;color:#fff;position: relative;}
+.mvmenu_select h2{font-weight: bold}
+.mvmenu_select span{background: #fff;width: 20px;margin-top:40px;}
+
+
+
+
+.content_right{width:79%;height:100%;}
+.content_right_main{text-align: center;margin-top: 250px;width: 702px;height:100%;}
+.content_right_main h1{margin-bottom: 30px}
+.content_right_main h1 p{font-size:48px;line-height: 60px;font-weight: bold;}
+.content_right_main>div img{margin:10px;}
+.content_right_main h1 span{}
+.introduce{color:#fff;text-align: left;text-indent: 2em;font-size: 16px;line-height: 24px;}

@@ -1,0 +1,39 @@
+.banner{width: 100%}
+.banner img{width:100%;}
+/*search*/
+.search{height:60px;padding-top: 27px;}
+.search a{color:#c3a07d;font-size: 14px;}
+.search a:hover{text-decoration: underline;}
+.search_left{width: 200px;height:30px;line-height: 30px;}
+.search input{background: #1a1a1a;outline: none;border:1px dotted #fff;color:#fff;height:30px;line-height:30px;}
+.input{width: 240px;}
+.search .submit{width: 40px;height:32px;background:#000;margin-left: 10px;}
+/*content*/
+.content{background: #cbc8c3;*padding-bottom:40px; }
+.content_main{margin:78px 0;padding:60px 30px;background: #c7baab;transition:all .5s ease}
+.content_main:hover{background:#b9b6b2;}
+.content_main_left{width: 320px;margin:0 30px;}
+.content_main_left h1{margin: 80px 0px 64px 0px;color:#161616;font-weight: bold;font-size: 24px;}
+.content_main_left p{width: 300px;color:;font-size: 16px;color:#161616;margin-bottom: 96px;}
+
+.content_main_btt{}
+.content_main_btt a{display: block;height:44px;width:220px;perspective:1000px;}
+.content_main_btt a .content_main_btn{position: relative;transition: all 0.4s ease;transform-style: preserve-3d;left: 10px;width:204px;height:44px;}
+.content_main_btn p{width:204px;height:44px;line-height:44px;text-align: center;font-size: 18px;filter:alpha(opacity=90);opacity:0.9;position: absolute;transition: all 0.4s ease;margin:0;}
+.content_main_btn .p_btn1{background:#161616;color:#c3a07d;transform: translateZ(22px);left:0;top:0;}
+.content_main_btn .p_btn2{color:#161616;background:#c3a07d;transform: rotateX(-90deg) translateZ(22px);left:0;opacity: 0;filter:alpha(opacity=0);}
+.content_main_btn:hover{transform: rotateX(90deg);}
+.content_main_btn:hover .p_btn1{color:#161616;}
+.content_main_btn:hover .p_btn2{opacity:1;filter:alpha(opacity=100);}
+
+
+.content_main_right{width: 698px;height: 394px;margin:0 30px;}
+.content_main_right img{width: 698px;}
+.content_main_1 ul li{width: 511px;background: #c7baab;transition:all .5s ease;margin:0 10px 50px 50px;float: left;}
+.content_main_1 ul li:hover{background:#b9b6b2;}
+.content_main_1 ul img{width:511px;margin-left: 0px;}
+.content_main_1_right{height:285px;}
+.content_main_1_left{padding: 0 40px 40px 40px;text-align: center;}
+.content_main_1_left h1{color:#161616;font-weight: bold;margin-bottom: 26px;margin-top: 26px;}
+.content_main_1_left p{color:;font-size: 16px;color:#161616;margin-bottom: 26px;}
+.content_main_1_left .content_main_btn{left:26%;}
